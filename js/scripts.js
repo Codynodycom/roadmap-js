@@ -1,7 +1,19 @@
-/*!
-* Start Bootstrap - Bare v5.0.9 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// let myModal = document.getElementById('modal-up')
+// let myInput = document.getElementById('myInput')
+//
+// myModal.addEventListener('shown.bs.modal', function () {
+// 	myInput.focus()
+// })
+//
+//
+
+
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+	toastTrigger.addEventListener('click', () => {
+		const toast = new bootstrap.Toast(toastLiveExample)
+		
+		toast.show()
+	})
+}

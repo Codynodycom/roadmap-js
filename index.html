@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>EgeneTyan - Web application developer</title>
+        <title>Youjin Tyan - Web application developer</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/fav.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -15,14 +15,37 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">專 心 致 志</a> <!-- НАДО ЧТОБЫ ПОПАП ВЫЛАЗИЛ С ТЕКСТОМ И КАРТИНКОЙ НА ПРИТЧУ -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand">Youjin Tyan : 田 友 金</a>
+
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Главная</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Портфолио</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Портфолио</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Codynomicon</a>
+                            <a
+                              class="nav-link dropdown-toggle"
+                              id="navbarDropdown"
+                              href="#" role="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                                Codynomicon
+                            </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Личное обучение</a></li>
                                 <li><a class="dropdown-item" href="#">Самостоятельное обучение</a></li>
@@ -36,13 +59,148 @@
             </div>
         </nav>
         <!-- Page content-->
-        <div class="container">
+        <div class="container mt-5 d-flex justify-content-center align-items-center">
             <div class="text-center mt-5">
-                <h1>Hello, world!</h1>
-                <p class="lead">Frontend-проекты в порядке возрастания сложности</p>
-                <p class="lead"><a href="https://www.epochtimes.com.ua/ru/china/culture/kultura-kitaya-sosredotochit-serdtse-i-napravit-volyu-idioma-58-116768.html" target="_blank">專心致志</a> - Сосредоточить сердце и направить волю </p>
+
+                <div class="container-fluid">
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">👋</button>
+                        <button type="button" class="btn btn-outline-primary" id="liveToastBtn">❓</button>
+                        <button type="button" class="btn btn-outline-primary">🤙</button>
+                    </div>
+
+                    <!--Toast content-->
+                    <div class="p-3" style="z-index: 11">
+                        <div id="liveToast" class="toast hide " role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <img src="assets/gift-icon.png" class="rounded me-2" alt="...">
+                                <strong class="me-auto">Новое послание</strong>
+                                <small class="text-muted">1 сек назад</small>
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="toast"
+                                  aria-label="Закрыть"
+                                ></button>
+                            </div>
+                            <div class="toast-body">
+                                <!-- Button trigger modal -->
+                                <p class="lead">
+                                    <a href="#"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">專 心 致 志</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<h1>Hello, world!</h1>-->
+                </div>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                    <div class="modal-dialog modal-dialog-scrollable container-fluid">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Идиома 58</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <img src="assets/58.jpg" class="rounded img-fluid" alt="image">
+                                <p class="">Иллюстрация: Джейн Ку/Великая Эпоха</p>
+
+                                <h4 class="text-start">
+                                    Когда Учитель Цю вёл урок, один ученик слушал внимательно
+                                    и был всем сердцем сосредоточен на учёбе. А вот второй ученик,
+                                    внешне казалось, слушал, но его мысли витали в другом месте.
+                                </h4> <br>
+
+                                <p class="text-start">
+                                    Давным-давно жил мастер по шахматам, которого звали И Цю.
+                                    Он был известен как самый опытный шахматист своего времени.
+                                    Однажды он принял себе в ученики двух человек и ежедневно
+                                    давал им уроки шахматной игры.
+                                </p>
+
+                                <p class="text-start">
+                                    Как-то раз он обучал их важным приёмам игры в шахматы. Первый
+                                    ученик Ан слушал учителя внимательно и был всецело сосредоточен
+                                    на этом. А вот второй ученик Би, внешне казалось, слушал, но его
+                                    мысли витали в другом месте.
+                                </p>
+
+                                <p class="text-start">
+                                    Ученик Би выглянул в окно. Он увидел на озере лебедя
+                                    и в мыслях вообразил, что у него в руках лук и стрелы.
+                                    Что он подстрелил лебедя и приготовил из него отличный ужин.
+                                </p>
+
+                                <p class="text-start">
+                                    И тогда до Би дошло, что это было всего лишь воображение, и
+                                    что он по-прежнему находится в классе. Он почувствовал досаду от
+                                    того, что должен сидеть в это время в классе. Некоторое время Би
+                                    слушал то, о чём говорит учитель, пока не увидел в окне ещё одного лебедя.
+                                    Мысль подстрелить его и приготовить из лебедя ужин снова посетила его голову.
+                                </p>
+
+                                <p class="text-start">
+                                    Хотя он находился на тех же уроках, что и ученик Ан, он не был
+                                    сосредоточен на предмете, преподаваемом Цю, и позволял своему
+                                    разуму блуждать и думать о всякой всячине. Когда урок закончился,
+                                    Би всё ещё витал в облаках.
+                                </p>
+
+                                <p class="text-start">
+                                    Мастер Цю уже заметил, что ученик Би рассеян. Он попросил
+                                    обоих учеников после урока сыграть партию в шахматы.
+                                </p>
+
+                                <p class="text-start">
+                                    Ученик Ан использовал приёмы, которым научился на уроке,
+                                    и играл очень хорошо, а вот ученик Би изо
+                                    всех сил пытался защищаться, пока наконец не проиграл партию.
+                                </p>
+
+                                <p class="text-start">
+                                    Мастер Цю сказал им: «Если человек не сосредоточится на
+                                    этом всеми помыслами души, то не освоит никаких навыков».
+                                </p>
+
+                                <p class="text-start">
+                                    Эта история описана в книге «Гаоцзы Менция» (1). Позже выражение
+                                    из текста 專心致志 (zhuān xīn zhì zhì), означающее «сосредоточиться
+                                    всеми помыслами души», а дословно переводящееся
+                                    как «Сосредоточить сердце и направить волю», стало идиомой.
+                                </p>
+
+                                <p class="text-start">
+                                    Примечание: 1. Мэн-цзы (372—289 гг. до н.э.), которого также
+                                    называют Менцием, был знаменитым философом Китая. Он является
+                                    самым известным конфуцианцем после самого Конфуция. Его
+                                    философия в основном сосредоточена на врождённой доброте человека.
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Прочитал</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <footer id="sticky-footer" class="flex-shrink-0 bg-dark text-white-50 fixed-bottom small">
+            <div class="container text-center">
+                <small>Youjin Tyan</small>
+            </div>
+        </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
