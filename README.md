@@ -1,6 +1,6 @@
 # roadmap-js
 
-> Потихоньку делаю свой сайт и изучаю JavaScript. Обновления можно наблюдать [здесь](https://jonotyan.github.io/roadmap-js).
+> Потихоньку делаю свой сайт и изучаю JavaScript. Обновления можно наблюдать [здесь](https://youjintyan.github.io/roadmap-js/).
 
 #### Задачи:
 
