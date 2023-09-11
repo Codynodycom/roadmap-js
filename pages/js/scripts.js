@@ -17,3 +17,6 @@ if (toastTrigger) {
 		toast.show()
 	})
 }
+
+let title = document.getElementById('title-page');
+console.log(title);

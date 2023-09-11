@@ -15,18 +15,25 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">專 心 致 志</a> <!-- НАДО ЧТОБЫ ПОПАП ВЫЛАЗИЛ С ТЕКСТОМ И КАРТИНКОЙ НА ПРИТЧУ -->
+                <a
+                   class="navbar-brand"
+                   id="title-page"
+                   onmousemove="setText('ru')"
+                   onmouseout="setText('ch')"
+                >
+                    專 心 致 志
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/roadmap-js/index.html">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/roadmap-js/index.html">Главная</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Портфолио</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Codynomicon</a>
+                            <a class="nav-link active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Codynomicon</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Личное обучение</a></li>
                                 <li><a class="dropdown-item" href="#">Самостоятельное обучение</a></li>
-                                <li><a class="dropdown-item" href="#">Черновики</a></li>
+                                <li><a class="dropdown-item">Черновики</a></li>
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="#">Тут будет анимация</a></li>
                             </ul>
@@ -41,11 +48,13 @@
                 <h1>Web Dev</h1>
                 <p class="lead">Frontend-проекты в порядке возрастания сложности</p>
             </div>
+
             <ul>🚀 <b>JavaScript проекты</b>
                 <li><a href="../projects/calculator/index.html">Простой калькулятор с использованием Bootstrap</a></li>
                 <li><a href="../projects/arrays/index.html">Simpe task manager (Bootstrap)</a></li>
                 <li><a href="../projects/datetime/index.html">Вывод даты и времени (Bootstrap)</a></li>
             </ul>
+
             <ul>🚀 <b>Ресурсы</b>
                 <li>Дизайн
                     <ul>
@@ -58,7 +67,16 @@
 
             </ul>
 
+            <ul>🚀 <b>Интересные дизайны сайтов</b>
+                <li>
+                    <a href="https://cssdesignawards.com/" target="_blank">Css design awards</a>
+                </li>
+
+            </ul>
+
         </div>
+
+        <script src="app.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
