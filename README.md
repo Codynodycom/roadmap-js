@@ -8,10 +8,10 @@
 * [X]  Сделать страницу с карточками и китайскими идеаомами (переход из модального окна)
 * [X]  Пройти курс javascript
 
-  * [ ]  Калькулятор
-  * [ ]  Время / дата
-  * [ ]  Заметки
-  * [ ]  Фильтр пользователей
+  * [X]  [Калькулятор](https://codynomicon.github.io/roadmap-js/projects/calculator/index.html)
+  * [X]  [Время / дата](https://codynomicon.github.io/roadmap-js/projects/datetime/index.html)
+  * [X]  [Заметки](https://codynomicon.github.io/roadmap-js/projects/arrays/index.html)
+  * [X]  [Фильтр пользователей](https://codynomicon.github.io/roadmap-js/projects/server/index.html)
 * [ ]  Прочитать [LearnJS](https://learn.javascript.ru/) + практика
 
   * [ ]  Задачи
