@@ -12,7 +12,13 @@
   * [X]  [Время / дата](https://codynomicon.github.io/roadmap-js/projects/datetime/index.html)
   * [X]  [Заметки](https://codynomicon.github.io/roadmap-js/projects/arrays/index.html)
   * [X]  [Фильтр пользователей](https://codynomicon.github.io/roadmap-js/projects/server/index.html)
-* [ ]  Приложение на Vue3
+* [ ]  [Приложение на Vue3](applications/edu/)
+
+  * [ ]  Дизайн приложения
+  * [ ]  Подгрузка постов при открытии
+  * [ ]  Дизайн главной страницы
+  * [ ]  Дизайн страницы о сайте
+  * [ ]  Доделать удаление постов
 * [ ]  Unsplash searcher Vue3
 * [ ]  Прочитать [LearnJS](https://learn.javascript.ru/) + практика
 
