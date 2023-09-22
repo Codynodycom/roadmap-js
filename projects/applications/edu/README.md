@@ -13,6 +13,8 @@
 
 # Демонстрация
 
+<img src"demo.gif">
+
 ![demo](demo.gif)
 
 ## 0Recommended IDE Setup
