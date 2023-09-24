@@ -35,6 +35,7 @@
   * [ ]  Секундомер
   * [ ]  Калькулятор (Tailwind)
 * [ ]  Пройти курс по [JS на Hexlet](https://ru.hexlet.io/courses/js-basics)
+* [ ]  Пройти курс по [Книги по JS](https://github.com/azat-io/you-dont-know-js-ru)
 
   * [ ]  Paint
   * [ ]  Карточки товаров с корзиной (Прочитал-добавил в прочитанное) - идиомы. [Пример](https://codepen.io/RSH87/pen/RagqEv)
