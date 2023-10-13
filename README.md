@@ -19,8 +19,9 @@
   * [ ]  Дизайн главной страницы
   * [ ]  Дизайн страницы о сайте
   * [ ]  Доделать удаление постов
-* [ ]  [React Redux + Saga App](projects/applications/react_redux/)
-* [ ]  Unsplash searcher Vue3
+* [X]  [React Redux + Saga App](projects/applications/react_redux/)
+* [X]  [React крестики-нолики](projects/applications/tictactoe-react/)
+* [ ]  Unsplash searcher React
 * [ ]  Прочитать [LearnJS](https://learn.javascript.ru/) + практика
 
   * [ ]  Задачи
